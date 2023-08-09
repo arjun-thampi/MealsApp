@@ -158,3 +158,54 @@ $breakpoint-tablet: 768px;
     }
   }
 }
+
+.filtred-dishes {
+  margin-top: 90px;
+  &-container {
+    margin-top: 90px;
+    max-width: 680px;
+    margin-left: 20px;
+    //text-align: center;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    list-style-type: none;
+  }
+
+  li {
+    background-color: #ffb902;
+    color: white;
+    padding: 12px 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    font-weight: bold;
+    border-radius: 2em;
+  }
+  li:hover {
+    background-color: black;
+  }
+  .active {
+    background-color: black;
+  }
+}
+.filtered-dishes-results {
+  margin-top: 60px;
+  align-items: center;
+  h5 {
+    margin-top: 18px;
+  }
+  li {
+    width: 22%;
+  }
+  h3 {
+    width: 100%;
+
+    color: rgb(225, 9, 78);
+    background-color: azure;
+    margin-left: 64px;
+  }
+}
